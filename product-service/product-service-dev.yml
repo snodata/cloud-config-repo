@@ -15,3 +15,5 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
+test:
+  name: test
