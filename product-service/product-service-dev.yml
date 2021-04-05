@@ -16,4 +16,4 @@ microservice:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
 test:
-  name: test1
+  name: test12
