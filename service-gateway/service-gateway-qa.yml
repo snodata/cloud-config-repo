@@ -1,16 +1,7 @@
 server:
-  port: 8979
+  port: 8989
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}    
 
-hystrix:
-  command:
-    fallbackcmd:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 5000
